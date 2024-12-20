@@ -1,0 +1,53 @@
+{
+  "slider_fields": {
+    "ApplicantIncome": [
+      150,
+      81000
+    ],
+    "CoapplicantIncome": [
+      0,
+      41667
+    ],
+    "LoanAmount": [
+      9,
+      700
+    ],
+    "Loan_Amount_Term": [
+      12,
+      480
+    ]
+  },
+  "single_select_fields": {
+    "Gender": [
+      "Male",
+      "Female"
+    ],
+    "Married": [
+      "Yes",
+      "No"
+    ],
+    "Dependents": [
+      "0",
+      "1",
+      "2",
+      "3+"
+    ],
+    "Education": [
+      "Graduate",
+      "Not Graduate"
+    ],
+    "Self_Employed": [
+      "Yes",
+      "No"
+    ],
+    "Credit_History": [
+      "Yes",
+      "No"
+    ],
+    "Property_Area": [
+      "Urban",
+      "Rural",
+      "Semiurban"
+    ]
+  }
+}

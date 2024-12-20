@@ -1,1 +1,1 @@
-# Loan_prediction_UI
+# Loan Prediction UI App
