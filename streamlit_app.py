@@ -1,11 +1,12 @@
 import json
 import streamlit as st
+import requests
 
 
 
 user_options = {}
 
-st.title('Median House Value Prediction')
+st.title('Loan Approval Prediction')
 
 streamlit_options = json.load(open("streamlit_options.json"))
 for field_name, range in streamlit_options["slider_fields"].items():
@@ -22,5 +23,5 @@ user_options
 
 if st.button('Predict'):
     data = json.dumps(user_options, indent=2)
-    #r = requests.post('http://143.198.29.23:8002/predict', data=data)
-    st.write(data)
+    r = requests.post('http://localhost:8002/predict', data=data)
+    st.write(r.json())

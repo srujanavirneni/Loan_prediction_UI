@@ -41,8 +41,8 @@
       "No"
     ],
     "Credit_History": [
-      "Yes",
-      "No"
+      0,
+      1
     ],
     "Property_Area": [
       "Urban",
